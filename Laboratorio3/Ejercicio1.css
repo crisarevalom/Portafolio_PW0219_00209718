@@ -1,6 +1,12 @@
 body{
     background-color: black
 }
+
+.lema{
+    color: blueviolet;
+    text-align: center;
+}
+
 .content{
     display: grid;
     margin: 6em auto ;
@@ -18,20 +24,35 @@ img{
 }
 
 .img1{
-    grid-area: span 1/ span 8;
+    grid-area: span 1/ span 6;
 }
+
 .img2{
- grid-area:   3 / 1/ span 1 / span 3;
+    grid-area: span 2 / span 2;
+}
+
+.img4{
+    grid-area:  span 2 / span 1;
 }
 
 .img5{
-    grid-area: span 2/ span 1;
+    grid-area:  span 1 / span 4;
+
 }
 
-.img7{
-    grid-area: span 1/ span 4;
+.img6{
+    grid-area: span 2 / span 1;
+}
+
+.img9{
+    grid-area: span 2 / span 1;
 }
 
 .img11{
     grid-area: span 2 / span 1;
 }
+
+.img10, .img13, .img14{
+    grid-area: span 1 / span 2;
+}
+
