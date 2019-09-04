@@ -15,16 +15,100 @@ html{
 }
 
 .header{
-    background-color: blue;
+    background-color: rgb(255, 145, 145);
     height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
+.lema:hover{
+    color: red;
+}
+.btno{
+    background-color: brown;
+    color: rgb(92, 250, 92);
+    border: black;
+    margin: 3px;
+}
+
+.btnd{
+    background-color: rgb(175, 0, 0);
+    color: rgb(209, 212, 9);
+    border: black;
+    margin: 3px;
+}
+
+.btnf{
+    background-color: rgb(182, 58, 0);
+    color: rgb(16, 39, 1);
+    border: black;
+    margin: 3px;
+}
+
+.lema{
+    display: flex;
+    justify-content: center
+}
+
+
+
 .pantalla{
-    background-color: aqua;
+    background-image: url("Img/original.jpg");
     height: 80%;
 }
+
+img{
+    height: 5%;
+    width: 5%;
+    margin: 0.5%;
+}
+
+.content{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+
+
 .footer{
-    background-color: blue;
+    background-color: rgb(255, 145, 145);
     height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    height: 50%;
+    border-radius: 7px;
+    opacity: 0.5;
+}
+
+button:hover{
+    background-color: wheat;
+}
+
+.btnc{
+    background-color: rgb(4, 12, 85);
+    color: green;
+    border: black;
+    margin: 3px;
+}
+
+.btnh{
+    background-color: rgb(71, 4, 85);
+    color: green;
+    border: black;
+    margin: 3px;
 }
 
