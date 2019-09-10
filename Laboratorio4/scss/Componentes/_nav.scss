@@ -1,0 +1,12 @@
+header{
+    border: 0ch;
+    background-color: $color_nav;
+    height: $nav_tam;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn{
+    @include btn();
+}

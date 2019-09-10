@@ -1,0 +1,25 @@
+.pantalla{
+    height: $pant_tam;
+    background-color: $pant_color;
+    border: 0ch;
+}
+
+.lema{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
+
+.lema:hover{
+    color: red;
+}
+
+img{
+        
+    @include tam();
+
+}
+
+.content, .content2{
+@include move();
+}

@@ -1,0 +1,31 @@
+$color_nav: rgb(255, 145, 145);
+
+$nav_tam: 10%;
+
+$pant_tam: 80%;
+$pant_color: rgb(24, 184, 224);
+
+@mixin btn() {
+  height: 50%;
+  border-radius: 7px;
+  opacity: 0.5;
+  color: rgb(4, 12, 85);
+  background-color: rgb(213, 218, 153);
+  border: black;
+  margin: 3px;
+  &:hover{
+      color: aquamarine;
+  }
+}
+
+@mixin tam() {
+  height: 5%;
+  width: 5%;
+  margin: 0.5%;
+}
+
+@mixin move {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
